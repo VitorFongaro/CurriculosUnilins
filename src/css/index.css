@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url("../imagens/fundo_unilins.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#container{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
+.logo_unilins{
+    height: auto;
+    width: 300px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #143663;
+    padding: 10px;
+}
+.lg-cd{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+#cadastro,#entrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: #007bfd;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+table{
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+}
+td{
+    width: 300px;
+}   
+
+a{
+    color: black;
+}
+#entrar a, #cadastro a{
+    text-decoration: none;
+    color: #143663;
+}
+
+@media(max-width:480px){
+    *{
+        font-size: 1rem;
+    }
+    header{
+        flex-direction: column;
+    }
+}

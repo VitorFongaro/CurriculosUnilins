@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+#container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Pessoais{
+    margin: 66px 0 22px 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 150px;
+    
+}
+#pessoais{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Formacao{
+    margin: 66px 0 22px 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 150px;
+}
+
+.Objetivos{
+    margin: 66px 0 22px 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 150px;
+}
+
+.Qualificacoes{
+    margin: 66px 0 22px 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 150px;
+}
+
+.Profissionais{
+    margin: 66px 0 22px 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 150px;
+}
+.Formacao,.Objetivos,.Pessoais,.Qualificacoes,.Profissionais{
+  display: flex;
+  flex-direction: column;
+}
+.pessoais_foto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Foto{
+    margin: 66px 100px 22px 0;
+    box-sizing: border-box;
+    text-align:center;
+    font-family: 'Nunito', sans-serif;
+    height: 160px;
+    width: 140px;
+    border: 5px solid;
+    border-color: #143663;
+}
+.Foto img{
+  width: 130px;
+  height: 150px;
+}
+p{
+    
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    line-height: 44px;
+}
+
+h1, h2, h3, h4, h6
+{
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 25px;
+    line-height: 44px;
+    margin-bottom: 22px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    border: 5px solid;
+    border-color: #112e55;
+}
+
+
+#container{
+    width: 100%;
+   
+}
+
+.logo_unilins{
+    height: auto;
+    width: 300px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #143663;
+    padding: 10px;
+}
+
+footer{
+  font-size: 14px;
+  padding-bottom: 44px;
+  padding-top: 44px;
+  font-family: 'Nunito', sans-serif;
+  align-items: center;
+  background-color: #112e55;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width:700px){
+
+  .pessoais_foto{
+    align-items: center;
+    flex-direction: column;
+  }
+  .Formacao,.Objetivos,.Pessoais,.Qualificacoes,.Profissionais{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .Foto{
+    margin: 0;
+  }
+}
