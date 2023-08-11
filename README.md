@@ -21,7 +21,8 @@
 
 --- Login ---
 
-Email: jorge.renato.costa@vol.com.br        | ID: 1 | Senha: 12345678
-Email: bruno-carvalho85@band.com.br         | ID: 2 | Senha: abc12345
-Email: agatha_bernardes@damha.com.br        | ID: 3 | Senha: agatha12
+- Usuários criados para servir de exemplo.
+Email: jorge.renato.costa@vol.com.br | ID: 1 | Senha: 12345678
+Email: bruno-carvalho85@band.com.br | ID: 2 | Senha: abc12345
+Email: agatha_bernardes@damha.com.br | ID: 3 | Senha: agatha12
 Email: clara.heloise.fernandes@bravo.com.br | ID: 4 | Senha: aluno123
